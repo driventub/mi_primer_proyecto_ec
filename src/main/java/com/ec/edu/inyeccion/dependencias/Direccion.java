@@ -1,5 +1,5 @@
 package com.ec.edu.inyeccion.dependencias;
-
+//
 public class Direccion {
 	
 	private String callePrincipal;
