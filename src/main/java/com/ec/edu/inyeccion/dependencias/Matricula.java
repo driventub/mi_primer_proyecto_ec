@@ -1,13 +1,29 @@
-package com.ec.edu.dependecias;
+package com.ec.edu.inyeccion.dependencias;
 
 public class Matricula {
 	
 	private String semestre;
 	private int anho;
 	private Estudiante estudiante;
+	private Direccion direccion;
 	
+	public Matricula(Estudiante estudiante, Direccion direccion) {
+		this.estudiante = estudiante;
+		this.direccion = direccion;
+		
+		
+		
+
+	}
 	
-	
+	public Direccion getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(Direccion direccion) {
+		this.direccion = direccion;
+	}
+
 	public String getSemestre() {
 		return semestre;
 	}
@@ -24,33 +40,16 @@ public class Matricula {
 		this.anho = anho;
 	}
 
-	public String matricular(String nombre, String apellido, String calle, String numero, int tipo) {
-		if(tipo == 1) {
-			this.estudiante = new EstudianteOdontologia();
-		}
-		if(tipo == 2) {
-			this.estudiante = new Estudiante();
-		}
-		
-		
+	public String matricular(String nombre, String apellido, String calle, String numero) {
 		this.estudiante.setNombre(nombre);
 		this.estudiante.setApellido(apellido);
 		
-		Direccion direccion = new Direccion();
 		direccion.setCallePrincipal(calle);
 		direccion.setNumeracion(semestre);
 		
 		this.estudiante.setDireccion(direccion);
 		
-		
-		
-		
-		//logica para guardar los datos de la matricula
-		//y el estudiante
-		
 		System.out.println(this.estudiante);
-		
-		this.estudiante.pagarServiPagos(nombre);
 		
 		return "Estudiante Guardado con Exito";
 	}

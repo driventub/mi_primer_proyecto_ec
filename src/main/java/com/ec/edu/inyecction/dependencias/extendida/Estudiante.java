@@ -1,22 +1,18 @@
-package com.ec.edu.dependecias;
+package com.ec.edu.inyecction.dependencias.extendida;
 
 public class Estudiante {
-	protected String nombre;
-	protected String apellido;
-	protected Direccion direccion;
-
+	private String nombre;
+	private String apellido;
+	private Direccion direccion;
 	
-	
-	public void pagarServiPagos(String nombre) {
-		System.out.println(nombre + "El estudiante hace el pago");
-		System.out.println(nombre + "El estudiante presenta el pago");
-		System.out.println("TARJETA");
-		
-	}
 	
 	
 	// Setters y Getters
 
+	public void pagarServiPagos(String nombre) {
+		System.out.println(nombre + "El estudiante hace el pago");
+		System.out.println(nombre + "El estudiante presenta el pago");
+	}
 	
 	public String getNombre() {
 		return nombre;

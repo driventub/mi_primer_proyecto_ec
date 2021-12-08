@@ -1,13 +1,9 @@
-package com.ec.edu.dependecias;
+package com.ec.edu.inyeccion.dependencias;
 
 public class Direccion {
 	
 	private String callePrincipal;
 	private String numeracion;
-	
-	public void borrarDireccion() {
-		
-	}
 	
 	
 	
