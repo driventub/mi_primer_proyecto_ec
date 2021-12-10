@@ -5,7 +5,7 @@ public class Cuenta {
 	protected float saldo, valorInteres;
 	
 	public void aperCuenta(float valorInteres) {
-		
+		System.out.println("Ninguna Cuenta a sido creada, por favor escoja una opcion correcta");
 	}
 	//Getters y Setters
 	public int getNumCuenta() {
@@ -27,8 +27,8 @@ public class Cuenta {
 	public void setValorInteres(float valorInteres) {
 		this.valorInteres = valorInteres;
 	}
-	@Override
-	public String toString() {
+	
+	public String imprimir() {
 		return "Cuenta [numCuenta=" + numCuenta + ", saldo=" + saldo +  "]";
 	}
 	
