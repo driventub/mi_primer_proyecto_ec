@@ -2,7 +2,7 @@ package com.edu.tarea.inyeccion.banco;
 
 public class CuentaCorriente extends Cuenta{
 	
-	private int montoMinimo;
+	private int montoMinimo = 20;
 	
 	public void aperCuenta(float valorInteres) {
 		System.out.println("Cuenta de Ahorros abierta");
@@ -22,7 +22,7 @@ public class CuentaCorriente extends Cuenta{
 
 	@Override
 	public String toString() {
-		return "CuentaCorriente [montoMinimo=" + montoMinimo + "]";
+		return "[montoMinimo= " + montoMinimo + " dolares " +" ]";
 	}
 
 	

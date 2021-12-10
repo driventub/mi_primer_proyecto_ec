@@ -1,7 +1,7 @@
 package com.edu.tarea.inyeccion.banco;
 
 public class CuentaPoliza extends Cuenta{
-	private String fechaVig;
+	private String fechaVig = "10 de Diciembre de 2021";
 	
 	public void aperCuenta(float valorInteres) {
 		System.out.println("Cuenta de Poliza abierta");
@@ -16,6 +16,11 @@ public class CuentaPoliza extends Cuenta{
 
 	public void setFechaVig(String fechaVig) {
 		this.fechaVig = fechaVig;
+	}
+
+	@Override
+	public String toString() {
+		return "[Fecha de Vigencia= " + fechaVig + " ]";
 	}
 	
 	

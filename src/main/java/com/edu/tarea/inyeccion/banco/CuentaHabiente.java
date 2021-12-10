@@ -43,8 +43,7 @@ public class CuentaHabiente {
 
 	@Override
 	public String toString() {
-		return "Detalles de la cuenta [Nombre=" + nombre + ", Apellido=" + apellido + ", Cedula=" + cedula + 
-				", Tipo de Cuenta=" + cuenta + "]";
+		return "Detalles de la cuenta [Nombre=" + nombre + ", Apellido=" + apellido + ", Cedula=" + cedula  + "]";
 	}
 	
 	

@@ -1,7 +1,7 @@
 package com.edu.tarea.inyeccion.banco;
 
 public class CuentaAhorros extends Cuenta {
-	private float descuento;
+	private float descuento = 3 ;
 	
 	public void aperCuenta(float valorInteres) {
 		System.out.println("Cuenta de Ahorros abierta");
@@ -19,7 +19,7 @@ public class CuentaAhorros extends Cuenta {
 
 	@Override
 	public String toString() {
-		return "CuentaAhorros [descuento=" + descuento + "]";
+		return "[descuento= " + descuento + " % " +"]";
 	}
 	
 	
