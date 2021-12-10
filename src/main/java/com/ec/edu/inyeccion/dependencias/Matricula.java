@@ -49,7 +49,11 @@ public class Matricula {
 		
 		this.estudiante.setDireccion(direccion);
 		
-		System.out.println(this.estudiante);
+		
+//		System.out.println(this.estudiante);
+		
+		this.estudiante.pagarServiPagos(nombre);
+		
 		
 		return "Estudiante Guardado con Exito";
 	}

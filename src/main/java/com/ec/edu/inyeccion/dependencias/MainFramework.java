@@ -38,11 +38,15 @@ public class MainFramework {
 			estudiante = new EstudiantesAdministracion();
 		}
 
-		Matricula matricula = new Matricula(new Estudiante(),new Direccion());
+		Matricula matricula = new Matricula(estudiante,new Direccion());
 		matricula.setAnho(2015);
 		matricula.setSemestre("Sexto");
 		
-		matricula.matricular(nombre, apellido, calle, num);
+		String mensaje = matricula.matricular(nombre, apellido, calle, num);
+		System.out.println(mensaje + " " + matricula.getAnho());
+		
+		
+		
 
 	}
 
