@@ -12,10 +12,15 @@ public class MainFramework {
 	cuenta = new CuentaAhorros();
 	
 	CuentaHabiente c = new CuentaHabiente(cuenta);
-	String mensaje = c.aperCuenta(2, 1, 23);
-	System.out.println(mensaje);
 	
-
+	String mensaje = c.aperCuenta(2, 100, 23);
+	System.out.println(mensaje);
+	c.setNombre("Paulo");
+	c.setApellido("Aldaz");
+	c.setCedula(0);
+	
+	System.out.println(c);
+	
 	}
 
 }

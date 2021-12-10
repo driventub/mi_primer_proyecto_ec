@@ -16,6 +16,12 @@ public class CuentaAhorros extends Cuenta {
 	public void setDescuento(int descuento) {
 		this.descuento = descuento;
 	}
-	
+
+//	@Override
+//	public String toString() {
+//		return "CuentaAhorros [descuento=" + descuento + "]";
+//	}
+//	
+//	
 	
 }

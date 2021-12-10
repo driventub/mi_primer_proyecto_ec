@@ -18,6 +18,7 @@ public class CuentaHabiente {
 		this.cuenta.aperCuenta(valorInteres);
 		
 		System.out.println(this.cuenta);
+		
 		return "Cuenta Generada con Exito";
 	}
 	//Setters y Getters
@@ -39,6 +40,14 @@ public class CuentaHabiente {
 	public void setCedula(int cedula) {
 		this.cedula = cedula;
 	}
+
+	@Override
+	public String toString() {
+		return "Detalles de la cuenta [Nombre=" + nombre + ", Apellido=" + apellido + ", Cedula=" + cedula + 
+				", Tipo de Cuenta=" + cuenta + "]";
+	}
+	
+	
 	
 	
 }
