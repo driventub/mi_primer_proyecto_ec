@@ -13,7 +13,7 @@ public class MainFramework {
 	
 	CuentaHabiente c = new CuentaHabiente(cuenta);
 	
-	String mensaje = c.aperCuenta(2, 100, 23);
+	String mensaje = c.aperCuenta(2, 100, 100);
 	System.out.println(mensaje);
 	c.setNombre("Paulo");
 	c.setApellido("Aldaz");

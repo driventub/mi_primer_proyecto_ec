@@ -10,7 +10,7 @@ public class CuentaHabiente {
 		this.cuenta = cuenta;
 	}
 	
-	public String aperCuenta(int numCuenta, int saldo, int valorInteres ) {
+	public String aperCuenta(int numCuenta, float saldo, float valorInteres ) {
 		this.cuenta.setNumCuenta(numCuenta);
 		this.cuenta.setSaldo(saldo);
 		this.cuenta.setValorInteres(valorInteres);

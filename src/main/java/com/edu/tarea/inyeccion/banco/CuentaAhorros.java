@@ -1,19 +1,19 @@
 package com.edu.tarea.inyeccion.banco;
 
 public class CuentaAhorros extends Cuenta {
-	private int descuento;
+	private float descuento;
 	
-	public void aperCuenta(int valorInteres) {
+	public void aperCuenta(float valorInteres) {
 		System.out.println("Cuenta de Ahorros abierta");
-		int res = valorInteres * 10/100;
+		float res = valorInteres * 10/100;
 		System.out.println("El valor del interes para esta cuenta es: " + res);
 	}
 
-	public int getDescuento() {
+	public float getDescuento() {
 		return descuento;
 	}
 
-	public void setDescuento(int descuento) {
+	public void setDescuento(float descuento) {
 		this.descuento = descuento;
 	}
 

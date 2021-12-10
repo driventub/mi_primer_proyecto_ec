@@ -1,9 +1,10 @@
 package com.edu.tarea.inyeccion.banco;
 
 public class Cuenta {
-	protected int numCuenta,saldo, valorInteres;
+	protected int numCuenta;
+	protected float saldo, valorInteres;
 	
-	public void aperCuenta(int valorInteres) {
+	public void aperCuenta(float valorInteres) {
 		
 	}
 	//Getters y Setters
@@ -13,16 +14,17 @@ public class Cuenta {
 	public void setNumCuenta(int numCuenta) {
 		this.numCuenta = numCuenta;
 	}
-	public int getSaldo() {
+	
+	public float getSaldo() {
 		return saldo;
 	}
-	public void setSaldo(int saldo) {
+	public void setSaldo(float saldo) {
 		this.saldo = saldo;
 	}
-	public int getValorInteres() {
+	public float getValorInteres() {
 		return valorInteres;
 	}
-	public void setValorInteres(int valorInteres) {
+	public void setValorInteres(float valorInteres) {
 		this.valorInteres = valorInteres;
 	}
 	@Override
