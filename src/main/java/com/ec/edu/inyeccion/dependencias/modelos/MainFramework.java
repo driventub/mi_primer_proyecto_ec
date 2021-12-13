@@ -18,7 +18,22 @@ public class MainFramework {
 		}else  if(tipo == 3) {
 			cuenta = new CuentaFuturo();
 		
+		}else {
+			cuenta = new ICuenta(){
+				public void calcularDescuento(String s) {
+					System.out.println("y luego esta!!, LIFO???");
+					
+				}
+
+				public void calcularBeneficio() {
+					System.out.println("Porque sale primero esta");
+					
+				}
+			};
 		}
+		
+		
+		
 		
 		
 		GestorCuentas gestor = new GestorCuentas(cuenta);
