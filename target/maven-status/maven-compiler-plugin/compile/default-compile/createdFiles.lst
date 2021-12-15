@@ -4,7 +4,9 @@ com\ec\edu\inyecction\dependencias\extendida\Estudiante.class
 com\ec\edu\dependecias\MainUCE.class
 com\edu\tarea\inyeccion\banco\CuentaPoliza.class
 com\edu\tarea\inyeccion\banco\CuentaCorriente.class
+paulo\aldaz\Profesor.class
 com\edu\tarea\inyeccion\banco\CuentaHabiente.class
+paulo\aldaz\Estudiante.class
 com\ec\edu\inyeccion\dependencias\modelos\GestorCuentas.class
 com\ec\edu\inyeccion\dependencias\modelos\MainFramework$1.class
 com\ec\edu\dependecias\EstudiantesAdministracion.class
@@ -15,7 +17,9 @@ mi\primer\proyecto\pa\Animal.class
 com\ec\edu\dependecias\Matricula.class
 com\ec\edu\inyeccion\dependencias\EstudianteArquitectura.class
 com\ec\edu\inyeccion\dependencias\modelos\CuentaAhorros.class
+com\ec\inyeccion\dependencias\framework\Estudiante.class
 com\edu\tarea\inyeccion\banco\MainFramework.class
+com\ec\inyeccion\dependencias\framework\Main.class
 com\ec\edu\inyecction\dependencias\extendida\Direccion.class
 com\ec\edu\inyeccion\dependencias\EstudianteOdontologia.class
 com\edu\tarea\inyeccion\banco\Cuenta.class
@@ -31,3 +35,4 @@ com\ec\edu\inyecction\dependencias\extendida\Matricula.class
 com\ec\edu\dependecias\Direccion.class
 mi\primer\proyecto\pa\PruebaMaven.class
 com\ec\edu\inyecction\dependencias\extendida\MainFramework.class
+com\ec\inyeccion\dependencias\framework\Cuenta.class

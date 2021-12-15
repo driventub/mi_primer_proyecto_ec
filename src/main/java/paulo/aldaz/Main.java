@@ -1,12 +1,12 @@
-package com.ec.inyeccion.dependencias.framework;
+package paulo.aldaz;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import paulo.aldaz.Profesor;
+import com.ec.inyeccion.dependencias.framework.Cuenta;
+
 
 public class Main {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		@SuppressWarnings("resource")
@@ -29,16 +29,14 @@ public class Main {
 		
 		//IoC por Constructor
 		
-		Estudiante estu = (Estudiante)app.getBean("estu");
+		Paciente estu = (Paciente)app.getBean("estu");
 		int res = estu.getEdad() + 10;
 		System.out.println(estu.getNombre() + " "+ estu.getApellido() + " " + res );
+//		
+		Profesor prof = (Profesor) app.getBean("prof");
+		System.out.println(prof.getMateria());
 		
-		Profesor prof = (Profesor)app.getBean("estu");
-		int resu = estu.getEdad() + 10;
-		System.out.println(estu.getNombre() + " "+ estu.getApellido() + " " + resu );
-		
-		
-		
-	}
-
 }
+	
+}
+
