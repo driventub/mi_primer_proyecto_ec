@@ -4,6 +4,25 @@
 	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<<<<<<< HEAD
+    
+    <bean class="com.baeldung.springbootxml.Pojo">
+        <property name="field" value="sample-value"></property>
+    </bean>
+    
+    <bean id="estudiante" class="nicolas.carrera.Estudiante">
+    	<constructor-arg value="Nicolas"></constructor-arg>
+    	<constructor-arg value="Carrera"></constructor-arg>
+    	<constructor-arg value="22"></constructor-arg>
+    </bean>
+    
+    <bean id="profesor" class="nicolas.carrera.Profesor">
+    	<constructor-arg value="Edison"></constructor-arg>
+    	<constructor-arg value="Cayambe"></constructor-arg>
+    	<constructor-arg value="ING. Systemas"></constructor-arg>
+    	<constructor-arg value="Universidad Central del Ecuador"></constructor-arg>
+    </bean>
+=======
 
 
 
@@ -31,4 +50,5 @@
 
 	</bean>
 
+>>>>>>> branch 'main' of https://github.com/driventub/mi_primer_proyecto_pa.git
 </beans>
