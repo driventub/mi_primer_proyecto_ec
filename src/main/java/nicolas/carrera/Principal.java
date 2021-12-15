@@ -12,8 +12,10 @@ public class Principal {
 		Estudiante est = (Estudiante)app.getBean("estudiante");
 		System.out.println("Nombre estudiante: " + est.getNombre() + " Apellido: " + est.getApellido() + " Edad: " + est.getEdad());
 		
-		// Profesor
+		// Profesora
 		Profesor prf = (Profesor)app.getBean("profesor");
 		System.out.println("Nombre profesor: " + prf.getNombre() + " Apellido: " + prf.getApellido() + " Profesion: " + prf.getProfesion() + " Universidad: " + prf.getUnivarsidad());
+	
+		System.out.println("mi parte");
 	}
 }
