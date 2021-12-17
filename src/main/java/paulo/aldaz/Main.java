@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.ec.inyeccion.dependencias.framework.Cuenta;
 
+//Cambio para el taller, solo comentario para el taller
 
 public class Main {
 	public static void main(String[] args) {
